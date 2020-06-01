@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.block1{
+    width: 100px;
+height: 100px;
+background-color: aquamarine;
+box-sizing: border-box;
+border-radius: 6px ;
+position: static;
+
+
+}
+.q1{
+    width: 8px;
+    height: 30px;
+background-color: brown;
+border-right: 10px;
+}
+.roof1{
+    width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+    border-bottom: 80px solid red;
+    margin-bottom: -30px;
+   }
+.window1{
+    width: 20px;
+    height: 30px;
+    background-color: teal;
+    margin-top: -60px;
+
+}
+.door1{
+    width: 15px;
+    height: 40px;
+    background-color: yellowgreen;
+    margin-left: 40px;
+    margin-top: -10px;
+}
+ .house2{
+     position: relative;
+     left: 200px;
+     border: 2px salmon;
+     bottom: 210px;
+ }
+ .block2{
+    width: 100px;
+height: 100px;
+background-color: aquamarine;
+box-sizing: border-box;
+border-radius: 6px ;
+position: relative;}
+.roof2{
+    position: relative;
+    width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+    border-bottom: 80px solid red;
+    
+    z-index: 2;
+   }
+   .window2{
+       position: relative;
+    width: 20px;
+    height: 30px;
+    background-color: teal;
+    bottom: 80px;
+}
+.door2{
+    position: relative;
+    width: 15px;
+    height: 40px;
+    background-color: yellowgreen;
+    left: 50px;
+    bottom: 70px;
+}
+.q2{
+    position: relative;
+    width: 8px;
+    height: 30px;
+background-color: brown;
+top:80px;
+    z-index:1;
+}
+.house3{
+    position: absolute;
+     left: 400px;
+     border: 2px salmon;
+     bottom: 580px;
+}
+.block3{
+    width: 100px;
+height: 100px;
+background-color: aquamarine;
+box-sizing: border-box;
+border-radius: 6px ;
+position: absolute;
+bottom: 70px;}
+
+.roof3{
+    position: absolute;
+    width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+    border-bottom: 80px solid red;
+    bottom: 170px;
+    z-index: 2;
+   }
+   .window3{
+       position: absolute;
+    width: 20px;
+    height: 30px;
+    background-color: teal;
+    bottom: 120px;
+}
+.door3{
+    position: absolute;
+    width: 15px;
+    height: 40px;
+    background-color: yellowgreen;
+    left: 50px;
+    bottom: 70px;
+}
+.q3{
+    position: absolute;
+    width: 8px;
+    height: 30px;
+background-color: brown;
+bottom:170px;
+    z-index:1;
+}
+.house4{
+    position: fixed;
+     left: 600px;
+     border: 2px salmon;
+     
+}
+.block4{
+    width: 100px;
+height: 100px;
+background-color: aquamarine;
+box-sizing: border-box;
+border-radius: 6px ;
+position: fixed;
+bottom: 650px;}
+
+.roof4{
+    position: fixed;
+    width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+    border-bottom: 80px solid red;
+    bottom: 750px;
+    z-index: 2;
+   }
+   .window4{
+       position: fixed;
+    width: 20px;
+    height: 30px;
+    background-color: teal;
+    bottom: 700px;
+}
+.door4{
+    position: fixed;
+    width: 15px;
+    height: 40px;
+    background-color: yellowgreen;
+    left: 650px;
+    bottom: 650px;
+}
+.q4{
+    position: fixed;
+    width: 8px;
+    height: 30px;
+background-color: brown;
+bottom:750px;
+    z-index:1;
+}
+.house5{
+    position: sticky;
+     bottom: 700px;
+     
+     border: 2px salmon;
+     
+}
+.block5{
+    width: 100px;
+height: 100px;
+background-color: aquamarine;
+box-sizing: border-box;
+border-radius: 6px ;
+position: sticky;
+left: 800px;
+bottom: 650px;
+}
+
+
+.roof5{
+    position: sticky;
+    width: 0;
+	height: 0;
+	border-left: 50px solid transparent;
+	border-right: 50px solid transparent;
+    border-bottom: 80px solid red;
+    bottom: 750px;
+    z-index: 2;
+    left: 800px;
+   }
+   .window5{
+       position: sticky;
+    width: 20px;
+    height: 30px;
+    background-color: teal;
+    bottom: 700px;
+    left: 800px;
+}
+.door5{
+    position: sticky;
+    width: 15px;
+    height: 40px;
+    background-color: yellowgreen;
+    left: 850px;
+    bottom:650px ;
+}
+.q5{
+    position: sticky;
+    width: 8px;
+    height: 30px;
+background-color: brown;
+top: 54px;
+    z-index:1;
+    left: 800px;
+}
